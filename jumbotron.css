@@ -1,7 +1,9 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
-  padding-top: 3.5rem;
+  body{
+   padding-top:0px;
+   margin-top: 0px;
 }
+
 
 .jumbotron {
  background-image: url(header.png);
@@ -9,4 +11,8 @@ body {
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+}
+
+#book-icon{
+	width: 8%;
 }
